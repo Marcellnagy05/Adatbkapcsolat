@@ -5,5 +5,5 @@ adatbázis kapcsolat
                 -> Meghívjuk a szolgáltatást
 3.Migrálás -> összefésülés -> hogy a meglévő dologhoz hozzáillesztjük úgy hogy azokat maximum módosítjuk ne kicseréljük
 
-Entity Framework Core
+Entity Framework Core / .tools / .sqlite
 
