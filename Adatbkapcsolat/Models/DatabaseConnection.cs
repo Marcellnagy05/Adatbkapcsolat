@@ -9,5 +9,7 @@ namespace Adatbkapcsolat.Models
         {
 
         }
+        //Tables
+        public DbSet<Felhasznalo> Users { get; set; }
     }
 }
