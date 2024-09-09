@@ -1,7 +1,12 @@
+using Adatbkapcsolat.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<DatabaseConnection>
+    (options => options.UseSqlite(connectionString: "Data Source: Database.db")); //cikulus futtatunk lambda kifejezéssel
 
 var app = builder.Build();
 
